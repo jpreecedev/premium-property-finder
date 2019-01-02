@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "image": "1.jpg",
+    "title": "2 bedroom duplex for sale",
+    "address": "Mason Street, Manchester, Greater Manchester, M4",
+    "price": "£254,950",
+    "description": "HELP TO BUY AVAILABLE! Move into your new apartment in Q1 2019!"
+  },
+  {
+    "id": 2,
+    "image": "2.jpg",
+    "title": "4 bedroom penthouse for sale",
+    "address": "Beetham Tower, 301 Deansgate M3 4LX",
+    "price": "£3,500,000",
+    "description": "A rare opportunity to purchase a superb four bedroom, custom designed triplex apartment set on floors 44, 45 and 46 of Manchesters most iconic building, The Beetham Tower."
+  },
+  {
+    "id": 3,
+    "image": "3.jpg",
+    "title": "3 bedroom flat for sale",
+    "address": "1 Rice Street, Castlefield, Manchester, Greater Manchester, M3",
+    "price": "£2,000,000",
+    "description": "The Penthouse 360 Building. Total floor area of approximately 4780 Sq. Ft. A labour of love, a vision of creating arguably one of the best living spaces with no expense spared in the city centre."
+  },
+  {
+    "id": 4,
+    "image": "4.jpg",
+    "title": "4 bedroom penthouse for sale",
+    "address": "Leftbank, Spinningfields, Manchester",
+    "price": "£2,000,000",
+    "description": "We're delighted to present this exceptional four bedroom penthouse apartment on the top floor of the highly sought-after and only residential block on Spinningfields."
+  },
+  {
+    "id": 5,
+    "image": "5.jpg",
+    "title": "3 bedroom apartment for sale",
+    "address": "No1 Deansgate, Manchester",
+    "price": "£1,250,000",
+    "description": "A three bedroom triplex penthouse in the iconic No1 Deansgate. Further details available on application. Call 0161 834 8340 and ask for Jennie."
+  },
+  {
+    "id": 6,
+    "image": "6.jpg",
+    "title": "3 bedroom penthouse for sale",
+    "address": "Oxygen, Store Street, Manchester, M1",
+    "price": "£1,075,034",
+    "description": "Located in the heart of Manchester Oxygen is the City's most 'EXCLUSIVE' five star LEISURE FACILITIES and SKY GARDENS. Oxygen will be a beacon of Manchester's skyline featuring 343 STYLISH apartments, 12 townhouses."
+  }
+]

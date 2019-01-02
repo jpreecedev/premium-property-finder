@@ -56,6 +56,7 @@
     "jest-dom": "^3.0.0",
     "node-sass": "^4.11.0",
     "parcel-bundler": "^1.11.0",
+    "parcel-plugin-static-files-copy": "^1.2.4",
     "prettier": "^1.15.3",
     "react-hot-loader": "^4.6.3",
     "react-testing-library": "^5.4.2",
@@ -64,9 +65,11 @@
     "stylelint-config-standard": "^18.2.0"
   },
   "dependencies": {
+    "classnames": "^2.2.6",
     "@reach/router": "^1.2.1",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "spectre.css": "^0.5.8"
   },
   "browserslist": {
     "production": [
@@ -81,6 +84,7 @@
   "engines": {
     "node": ">=8.11.3"
   },
+  "staticPath": "public",
   "jest": {
     "moduleNameMapper": {
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
