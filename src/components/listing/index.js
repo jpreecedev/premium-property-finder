@@ -2,10 +2,11 @@ import * as React from 'react'
 import { Link } from '@reach/router'
 import classnames from 'classnames'
 
+import { asCurrency } from '../../utils/number'
 import styles from './styles.css'
 
 function Listing({ listing }) {
-  const { id, image, title, address, description } = listing
+  const { id, image, title, address, description, price } = listing
   const columnClasses = classnames('column', 'col-4', 'col-xs-12', styles.column)
 
   return (
@@ -16,6 +17,10 @@ function Listing({ listing }) {
         </div>
         <div className="card-header">
           <div className="card-title h5">{title}</div>
+          <div className="card-title h6">
+            &pound;
+            {asCurrency(price)}
+          </div>
           <div className="card-subtitle text-gray">{address}</div>
         </div>
         <div className="card-body">{description}</div>

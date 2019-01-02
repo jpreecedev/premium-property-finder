@@ -1,18 +1,14 @@
 import * as React from 'react'
-import classnames from 'classnames'
 import Hero from '../hero'
 
-import styles from './styles.css'
-
 function BaseLayout({ children, showHero = false }) {
-  const classes = classnames('text-center', styles.footer)
   return (
     <>
-      <main role="main">
+      <main role="main" className="mb-3">
         {showHero && <Hero />}
         {children}
       </main>
-      <footer className={classes}>
+      <footer className="text-center mb-5">
         Developed By
         {' '}
         <a

@@ -4,7 +4,7 @@ import classnames from 'classnames'
 import styles from './styles.css'
 
 function Hero() {
-  const classes = classnames(styles.hero, 'hero', 'hero-lg')
+  const classes = classnames(styles.hero, 'hero', 'hero-lg', 'mb-3')
 
   return (
     <div className={classes}>
