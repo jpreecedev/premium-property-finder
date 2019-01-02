@@ -1,0 +1,27 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "jest/globals": true,
+    "cypress/globals": true
+  },
+  "plugins": ["jest", "cypress"],
+  "extends": [
+    "airbnb",
+    "prettier",
+    "plugin:jest/recommended",
+    "plugin:cypress/recommended"
+  ],
+  "rules": {
+    "react/prop-types": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".js"] }]
+  }
+}
