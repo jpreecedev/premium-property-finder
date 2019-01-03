@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { render, cleanup, waitForElement } from 'react-testing-library'
+import { render, cleanup, waitForElement, fireEvent } from 'react-testing-library'
 import { FetchMock } from '@react-mock/fetch'
 
 import Home from '.'
@@ -17,10 +17,6 @@ const renderComponent = () =>
     </FetchMock>
   )
 
-beforeAll(() => {
-  global.alert = jest.fn()
-})
-
 afterEach(cleanup)
 
 test('should render basic elements', async () => {
@@ -28,4 +24,11 @@ test('should render basic elements', async () => {
   getByText(/Premium Property Finder/i)
   getByText(/Bringing premium property right to your finger tips/i)
   await waitForElement(() => getByText(/6 private properties for sale/i))
+})
+
+test('should update the property count when setting price of £1,000,000', async () => {
+  const { getByLabelText, getByText } = renderComponent()
+  const input = getByLabelText(/Price from/i)
+  fireEvent.change(input, { target: { value: '1000000' } })
+  await waitForElement(() => getByText(/5 private properties for sale/i))
 })
