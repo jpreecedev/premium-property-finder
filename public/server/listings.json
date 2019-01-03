@@ -5,7 +5,7 @@
     "title": "2 bedroom duplex for sale",
     "address": "Mason Street, Manchester, Greater Manchester, M4",
     "postcode": "M4",
-    "price": "254950",
+    "price": 254950,
     "description": "HELP TO BUY AVAILABLE! Move into your new apartment in Q1 2019!"
   },
   {
@@ -14,7 +14,7 @@
     "title": "4 bedroom penthouse for sale",
     "address": "Beetham Tower, 301 Deansgate M3 4LX",
     "postcode": "M3 4LX",
-    "price": "3500000",
+    "price": 3500000,
     "description": "A rare opportunity to purchase a superb four bedroom, custom designed triplex apartment set on floors 44, 45 and 46 of Manchesters most iconic building, The Beetham Tower."
   },
   {
@@ -23,7 +23,7 @@
     "title": "3 bedroom flat for sale",
     "address": "1 Rice Street, Castlefield, Manchester, Greater Manchester, M3",
     "postcode": "M3",
-    "price": "2000000",
+    "price": 2000000,
     "description": "The Penthouse 360 Building. Total floor area of approximately 4780 Sq. Ft. A labour of love, a vision of creating arguably one of the best living spaces with no expense spared in the city centre."
   },
   {
@@ -32,7 +32,7 @@
     "title": "4 bedroom penthouse for sale",
     "address": "Leftbank, Spinningfields, Manchester, M3 3AE",
     "postcode": "M3 3AE",
-    "price": "2000000",
+    "price": 2000000,
     "description": "We're delighted to present this exceptional four bedroom penthouse apartment on the top floor of the highly sought-after and only residential block on Spinningfields."
   },
   {
@@ -41,7 +41,7 @@
     "title": "3 bedroom apartment for sale",
     "address": "No1 Deansgate, Manchester, M1 3AZ",
     "postcode": "M1 3AZ",
-    "price": "1250000",
+    "price": 1250000,
     "description": "A three bedroom triplex penthouse in the iconic No1 Deansgate. Further details available on application. Call 0161 834 8340 and ask for Jennie."
   },
   {
@@ -50,7 +50,7 @@
     "title": "3 bedroom penthouse for sale",
     "address": "Oxygen, Store Street, Manchester, M1",
     "postcode": "M1",
-    "price": "1075034",
+    "price": 1075034,
     "description": "Located in the heart of Manchester Oxygen is the City's most 'EXCLUSIVE' five star LEISURE FACILITIES and SKY GARDENS. Oxygen will be a beacon of Manchester's skyline featuring 343 STYLISH apartments, 12 townhouses."
   }
 ]

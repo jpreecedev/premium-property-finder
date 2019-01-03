@@ -1,7 +1,7 @@
 import * as React from 'react'
 import classnames from 'classnames'
 
-import styles from './styles.css'
+import styles from './styles.module.css'
 
 function Hero() {
   const classes = classnames(styles.hero, 'hero', 'hero-lg', 'mb-3')

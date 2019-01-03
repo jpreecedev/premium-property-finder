@@ -1,7 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import * as React from 'react'
+import classnames from 'classnames'
 
 import { PropertyListingsConsumer } from '../../context/PropertyListingsProvider'
+import styles from './styles.module.css'
 
 function getSortOrderValue(sortOrder) {
   return sortOrder.replace(' ', '').toLowerCase()
@@ -33,32 +35,34 @@ class Filter extends React.Component {
   }
 
   render() {
+    const containerClasses = classnames('container', 'mb-1', styles.container)
+    const formClasses = classnames('form-horizontal', styles.form)
     const { priceFrom, postcode, sortOrder, sortOrders } = this.state
     const { postcodes, count } = this.props
 
     return (
       <aside className="mt-2">
-        <div className="container">
+        <div className={containerClasses}>
           <h2>{`${count} private ${getPropertiesDisplayText(count)} for sale`}</h2>
           <PropertyListingsConsumer>
             {({ updateFilter }) => (
               <form
                 onChange={() => setTimeout(() => updateFilter(this.state), 0)}
-                className="form-horizontal"
+                className={formClasses}
                 noValidate
               >
                 <p className="mb-1">
-                  Refine your results (
-                  <a
-                    href="#"
+                  Refine your results
+                  <button
+                    className="ml-1 btn btn-sm"
+                    type="button"
                     onClick={() => {
                       this.setState({ ...DefaultState })
                       updateFilter({})
                     }}
                   >
                     Clear
-                  </a>
-                  )
+                  </button>
                 </p>
                 <div className="columns text-center">
                   <div className="column col-4">
@@ -78,7 +82,7 @@ class Filter extends React.Component {
                           placeholder="£1,000,000"
                           value={priceFrom}
                           onChange={event =>
-                            this.handleChange('priceFrom', event.target.value)
+                            this.handleChange('priceFrom', Number(event.target.value))
                           }
                         />
                       </div>

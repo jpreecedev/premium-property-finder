@@ -3,15 +3,16 @@ import { Link } from '@reach/router'
 import classnames from 'classnames'
 
 import { asCurrency } from '../../utils/number'
-import styles from './styles.css'
+import styles from './styles.module.css'
 
 function Listing({ listing }) {
   const { id, image, title, address, description, price } = listing
   const columnClasses = classnames('column', 'col-4', 'col-xs-12', styles.column)
+  const cardClasses = classnames('card', styles.card)
 
   return (
     <div className={columnClasses}>
-      <div className="card">
+      <div className={cardClasses}>
         <div className="card-image">
           <img className="img-responsive" src={`/server/${image}`} alt={address} />
         </div>

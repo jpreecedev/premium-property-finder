@@ -57,6 +57,7 @@
     "node-sass": "^4.11.0",
     "parcel-bundler": "^1.11.0",
     "parcel-plugin-static-files-copy": "^1.2.4",
+    "postcss-modules": "^1.4.1",
     "prettier": "^1.15.3",
     "react-hot-loader": "^4.6.3",
     "react-testing-library": "^5.4.2",

@@ -14,34 +14,18 @@ class PropertyListingsProvider extends React.Component {
     const { priceFrom, postcode, sortOrder } = filter
     let result = listings
     if (priceFrom) {
-      const from = Number(priceFrom)
-      result = result.filter(item => Number(item.price) >= from)
+      const from = priceFrom
+      result = result.filter(item => item.price >= from)
     }
     if (postcode) {
       result = result.filter(item => item.postcode.toLowerCase().startsWith(postcode))
     }
     if (sortOrder) {
       if (sortOrder === 'highestfirst') {
-        result = result.sort((a, b) => {
-          if (Number(b.price) < Number(a.price)) {
-            return -1
-          }
-          if (Number(b.price) > Number(a.price)) {
-            return 1
-          }
-          return 0
-        })
+        result = result.sort((a, b) => b.price - a.price)
       }
       if (sortOrder === 'lowestfirst') {
-        result = result.sort((a, b) => {
-          if (Number(a.price) < Number(b.price)) {
-            return -1
-          }
-          if (Number(a.price) > Number(b.price)) {
-            return 1
-          }
-          return 0
-        })
+        result = result.sort((a, b) => a.price - b.price)
       }
     }
     return result
