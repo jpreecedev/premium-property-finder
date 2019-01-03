@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="column col-4 col-xs-12 column"
+>
+  <div
+    className="card card"
+  >
+    <div
+      className="card-image"
+    >
+      <img
+        alt="address"
+        className="img-responsive"
+        src="/server/image.png"
+      />
+    </div>
+    <div
+      className="card-header"
+    >
+      <div
+        className="card-title h5"
+      >
+        title
+      </div>
+      <div
+        className="card-title h6"
+      >
+        £
+        999
+      </div>
+      <div
+        className="card-subtitle text-gray"
+      >
+        address
+      </div>
+    </div>
+    <div
+      className="card-body"
+    >
+      description
+    </div>
+    <div
+      className="card-footer"
+    >
+      <a
+        className="btn btn-primary"
+        href="/details/1"
+        onClick={[Function]}
+      >
+        Go to property
+      </a>
+    </div>
+  </div>
+</div>
+`;

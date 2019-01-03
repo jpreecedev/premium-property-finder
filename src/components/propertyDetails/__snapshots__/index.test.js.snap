@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="columns"
+  >
+    <div
+      className="column col-9 col-xs-12"
+    >
+      <h2>
+        title
+      </h2>
+      <h3
+        className="text-dark text-small mb-1"
+      >
+        description
+      </h3>
+    </div>
+    <div
+      className="column col-3 col-xs-12"
+    >
+      <h5
+        className="price text-success text-right"
+      >
+        <small>
+          Priced from
+        </small>
+        <br />
+        £
+        999
+      </h5>
+    </div>
+  </div>
+  <div
+    className="columns"
+  >
+    <div
+      className="column col-6 col-xs-12"
+    >
+      <figure
+        className="figure"
+      >
+        <img
+          alt="title"
+          className="img-responsive"
+          src="/server/image.png"
+        />
+        <figcaption
+          className="figure-caption text-center text-small"
+        >
+          title
+        </figcaption>
+      </figure>
+    </div>
+    <div
+      className="column col-6 col-xs-12"
+    >
+      <p
+        className="text-bold"
+      >
+        Key Features
+      </p>
+      <ul
+        className="mt-0 mb-0"
+      >
+        <li>
+          <small>
+            first
+          </small>
+        </li>
+        <li>
+          <small>
+            second
+          </small>
+        </li>
+        <li>
+          <small>
+            third
+          </small>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <p
+    className="text-bold mt-3"
+  >
+    Full Details
+  </p>
+  <p>
+    fourth
+  </p>
+  <p>
+    fifth
+  </p>
+  <p>
+    sixth
+  </p>
+  <p
+    className="text-bold mt-3"
+  >
+    Map
+  </p>
+  <div
+    className="mapouter"
+  >
+    <div
+      className="gmap_canvas"
+    >
+      <iframe
+        frameBorder="0"
+        height="500"
+        id="gmap_canvas"
+        marginHeight="0"
+        marginWidth="0"
+        scrolling="no"
+        src="https://maps.google.com/maps?q=address&t=&z=16&ie=UTF8&iwloc=&output=embed"
+        title="address"
+        width="100%"
+      />
+    </div>
+  </div>
+</div>
+`;

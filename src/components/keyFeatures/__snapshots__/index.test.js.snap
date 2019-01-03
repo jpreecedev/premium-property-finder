@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <p
+    className="text-bold"
+  >
+    Key Features
+  </p>,
+  <ul
+    className="mt-0 mb-0"
+  >
+    <li>
+      <small>
+        first
+      </small>
+    </li>
+    <li>
+      <small>
+        second
+      </small>
+    </li>
+    <li>
+      <small>
+        third
+      </small>
+    </li>
+  </ul>,
+]
+`;

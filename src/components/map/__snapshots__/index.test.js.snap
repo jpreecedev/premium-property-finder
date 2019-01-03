@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="mapouter"
+>
+  <div
+    className="gmap_canvas"
+  >
+    <iframe
+      frameBorder="0"
+      height="500"
+      id="gmap_canvas"
+      marginHeight="0"
+      marginWidth="0"
+      scrolling="no"
+      src="https://maps.google.com/maps?q=Baker%20street&t=&z=16&ie=UTF8&iwloc=&output=embed"
+      title="Baker street"
+      width="100%"
+    />
+  </div>
+</div>
+`;

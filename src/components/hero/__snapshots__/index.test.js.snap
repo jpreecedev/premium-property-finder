@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="hero hero mb-3 hero-lg"
+>
+  <div
+    className="hero-body text-center text-light"
+  >
+    <h1>
+      Premium Property Finder
+    </h1>
+    <p
+      className="mb-0"
+    >
+      Bringing premium property right to your finger tips
+    </p>
+  </div>
+</div>
+`;

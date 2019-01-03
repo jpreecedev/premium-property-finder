@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<aside
+  className="mt-2"
+>
+  <div
+    className="container mb-1 container"
+  >
+    <h2>
+      3 private properties for sale
+    </h2>
+    <form
+      className="form-horizontal form"
+      noValidate={true}
+      onChange={[Function]}
+    >
+      <p
+        className="mb-1"
+      >
+        Refine your results
+        <button
+          className="ml-1 btn btn-sm"
+          onClick={[Function]}
+          type="button"
+        >
+          Clear
+        </button>
+      </p>
+      <div
+        className="columns text-center"
+      >
+        <div
+          className="column col-4 col-xs-12"
+        >
+          <div
+            className="form-group"
+          >
+            <div
+              className="col-3 col-sm-12"
+            >
+              <label
+                className="form-label"
+                htmlFor="price-from"
+              >
+                Price from
+              </label>
+            </div>
+            <div
+              className="col-9 col-sm-12"
+            >
+              <input
+                className="form-input"
+                id="price-from"
+                max="10000000"
+                min="0"
+                onChange={[Function]}
+                placeholder="£1,000,000"
+                type="number"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="column col-4 col-xs-12"
+        >
+          <div
+            className="form-group"
+          >
+            <div
+              className="col-3 col-sm-12"
+            >
+              <label
+                className="form-label"
+                htmlFor="postcode"
+              >
+                Postcode
+              </label>
+            </div>
+            <div
+              className="col-9 col-sm-12"
+            >
+              <select
+                className="form-select"
+                id="postcode"
+                onChange={[Function]}
+                value=""
+              >
+                <option
+                  value=""
+                >
+                  Choose...
+                </option>
+                <option
+                  value="abc 123"
+                >
+                  ABC 123
+                </option>
+                <option
+                  value="def 456"
+                >
+                  DEF 456
+                </option>
+                <option
+                  value="ghi 789"
+                >
+                  GHI 789
+                </option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div
+          className="column col-4 col-xs-12"
+        >
+          <div
+            className="form-group"
+          >
+            <div
+              className="col-3 col-sm-12"
+            >
+              <label
+                className="form-label"
+                htmlFor="sortorder"
+              >
+                Sort Order
+              </label>
+            </div>
+            <div
+              className="col-9 col-sm-12"
+            >
+              <select
+                className="form-select"
+                id="sortorder"
+                onChange={[Function]}
+                value=""
+              >
+                <option
+                  value=""
+                >
+                  Choose...
+                </option>
+                <option
+                  value="highestfirst"
+                >
+                  Highest First
+                </option>
+                <option
+                  value="lowestfirst"
+                >
+                  Lowest First
+                </option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</aside>
+`;

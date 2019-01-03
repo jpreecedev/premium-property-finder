@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<figure
+  className="figure"
+>
+  <img
+    alt="title"
+    className="img-responsive"
+    src="/server/image.png"
+  />
+  <figcaption
+    className="figure-caption text-center text-small"
+  >
+    title
+  </figcaption>
+</figure>
+`;
