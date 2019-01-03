@@ -54,12 +54,14 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^23.6.0",
     "jest-dom": "^3.0.0",
+    "jest-fetch-mock": "^2.1.0",
     "node-sass": "^4.11.0",
     "parcel-bundler": "^1.11.0",
     "parcel-plugin-static-files-copy": "^1.2.4",
     "postcss-modules": "^1.4.1",
     "prettier": "^1.15.3",
     "react-hot-loader": "^4.6.3",
+    "react-test-renderer": "^16.7.0",
     "react-testing-library": "^5.4.2",
     "regenerator-runtime": "^0.13.1",
     "stylelint": "^9.9.0",
@@ -87,6 +89,10 @@
   },
   "staticPath": "public",
   "jest": {
+    "automock": false,
+    "setupFiles": [
+      "./setup.config.js"
+    ],
     "moduleNameMapper": {
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
       "\\.(css|less|scss|sass)$": "identity-obj-proxy"
