@@ -4,3 +4,7 @@
   background-attachment: scroll;
   background-size: cover;
 }
+
+.miniHero {
+  background-position-y: -150px;
+}

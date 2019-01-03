@@ -1,6 +1,7 @@
 import * as React from 'react'
 
-import PropertyListingsProvider, {
+import {
+  PropertyListingsProvider,
   PropertyListingsConsumer
 } from '../../context/PropertyListingsProvider'
 
@@ -10,7 +11,7 @@ import Filter from '../../components/filter'
 
 function Home() {
   return (
-    <BaseLayout showHero>
+    <BaseLayout>
       <div className="container">
         <PropertyListingsProvider>
           <PropertyListingsConsumer>

@@ -1,12 +1,26 @@
 import * as React from 'react'
-import { Link } from '@reach/router'
 
-function Details() {
+import {
+  PropertyListingsProvider,
+  PropertyListingsConsumer
+} from '../../context/PropertyListingsProvider'
+
+import BaseLayout from '../../components/baseLayout'
+import PropertyDetails from '../../components/propertyDetails'
+
+function Details({ propertyId }) {
   return (
-    <>
-      <h1>Details.</h1>
-      <Link to="/">Home</Link>
-    </>
+    <BaseLayout miniHero>
+      <div className="container">
+        <PropertyListingsProvider>
+          <PropertyListingsConsumer>
+            {({ getListingByPropertyId }) => (
+              <PropertyDetails listing={getListingByPropertyId(propertyId)} />
+            )}
+          </PropertyListingsConsumer>
+        </PropertyListingsProvider>
+      </div>
+    </BaseLayout>
   )
 }
 

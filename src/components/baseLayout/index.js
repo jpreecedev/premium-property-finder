@@ -1,11 +1,11 @@
 import * as React from 'react'
 import Hero from '../hero'
 
-function BaseLayout({ children, showHero = false }) {
+function BaseLayout({ children, miniHero = false }) {
   return (
     <>
       <main role="main" className="mb-3">
-        {showHero && <Hero />}
+        <Hero miniHero={miniHero} />
         {children}
       </main>
       <footer className="text-center mb-5">

@@ -6,7 +6,24 @@
     "address": "Mason Street, Manchester, Greater Manchester, M4",
     "postcode": "M4",
     "price": 254950,
-    "description": "HELP TO BUY AVAILABLE! Move into your new apartment in Q1 2019!"
+    "description": "HELP TO BUY AVAILABLE! Move into your new apartment in Q1 2019!",
+    "features": [
+      "Help to Buy available, ideal for first time buyers",
+      "Within walking distance of the Northern Quarter, Ancoats & NOMA",
+      "Exposed brickwork retaining the charm of the existing building",
+      "Cycle storage",
+      "Victorian Mill conversion",
+      "13 unique 1,2 and 3 bed apartments available"
+    ],
+    "details": [
+      "Help to Buy now available, please enquire for further details!",
+      "The unique collection of apartments at Mason Street are conscientiously designed for modern, elegant, professional living. ",
+      "This exemplary conversion of a traditional mill is an architectural triumph, showcasing the exceptional appearance a harmoniously balanced brick and glass exterior can bring to a building & how they naturally compliment one another. ",
+      "Every one of the 13 beautiful 1 & 2 bedroom apartments have been carefully crafted, with exceptional attention to detail given to every fitting and fixture for an optimum living experience. ",
+      "Within walking distance of the Northern Quarter, Ancoats & NOMA, Mason Street is superbly located to explore the growing abundance of boutiques, independent trades, coffee shops, bars & restaurants that sit on the doorstep. ",
+      "Nestled within the heart of a city undergoing a very prominent & deliberate renaissance, making it one of the most dynamic and exciting cities within Europe in which to live, Mason Street also benefits from being located within close proximity of Deansgate, The Arndale Centre, New Cathedral Street, King Street & Spinningfields and local & national transport links including Manchester Piccadillly & Manchester Victoria overground stations & the Metro Link Tram. ",
+      "For further detail, floorplans & a development brochure, please contact Cushman & Wakefield today."
+    ]
   },
   {
     "id": 2,

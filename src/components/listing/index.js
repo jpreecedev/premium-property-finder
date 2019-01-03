@@ -6,6 +6,10 @@ import { asCurrency } from '../../utils/number'
 import styles from './styles.module.css'
 
 function Listing({ listing }) {
+  if (!listing) {
+    return null
+  }
+
   const { id, image, title, address, description, price } = listing
   const columnClasses = classnames('column', 'col-4', 'col-xs-12', styles.column)
   const cardClasses = classnames('card', styles.card)

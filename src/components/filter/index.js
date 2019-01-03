@@ -75,7 +75,7 @@ class Filter extends React.Component {
                       <div className="col-9 col-sm-12">
                         <input
                           className="form-input"
-                          min="1000000"
+                          min="0"
                           max="10000000"
                           type="number"
                           id="price-from"
