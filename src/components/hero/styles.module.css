@@ -5,6 +5,8 @@
   background-size: cover;
 }
 
-.miniHero {
-  background-position-y: -150px;
+@media screen and (min-width: 992px) {
+  .miniHero {
+    background-position-y: -150px;
+  }
 }

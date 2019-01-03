@@ -65,7 +65,7 @@ class Filter extends React.Component {
                   </button>
                 </p>
                 <div className="columns text-center">
-                  <div className="column col-4">
+                  <div className="column col-4 col-xs-12">
                     <div className="form-group">
                       <div className="col-3 col-sm-12">
                         <label className="form-label" htmlFor="price-from">
@@ -88,7 +88,7 @@ class Filter extends React.Component {
                       </div>
                     </div>
                   </div>
-                  <div className="column col-4">
+                  <div className="column col-4 col-xs-12">
                     <div className="form-group">
                       <div className="col-3 col-sm-12">
                         <label className="form-label" htmlFor="postcode">
@@ -112,7 +112,7 @@ class Filter extends React.Component {
                       </div>
                     </div>
                   </div>
-                  <div className="column col-4">
+                  <div className="column col-4 col-xs-12">
                     <div className="form-group">
                       <div className="col-3 col-sm-12">
                         <label className="form-label" htmlFor="sortorder">

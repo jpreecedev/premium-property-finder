@@ -19,11 +19,11 @@ function PropertyDetails({ listing }) {
   return (
     <div className={styles.container}>
       <div className="columns">
-        <div className="column col-9">
+        <div className="column col-9 col-xs-12">
           <h2>{title}</h2>
           <h3 className="text-dark text-small mb-1">{description}</h3>
         </div>
-        <div className="column col-3">
+        <div className="column col-3 col-xs-12">
           <h5 className={priceClasses}>
             <small>Priced from</small>
             <br />
@@ -33,10 +33,10 @@ function PropertyDetails({ listing }) {
         </div>
       </div>
       <div className="columns">
-        <div className="column col-6">
+        <div className="column col-6 col-xs-12">
           <Gallery image={image} title={title} />
         </div>
-        <div className="column col-6">
+        <div className="column col-6 col-xs-12">
           <KeyFeatures features={features} />
         </div>
       </div>
