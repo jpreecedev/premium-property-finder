@@ -7,7 +7,9 @@ exports[`renders correctly 1`] = `
   <div
     className="container mb-1 container"
   >
-    <h2>
+    <h2
+      data-cy="property-count"
+    >
       3 private properties for sale
     </h2>
     <form
@@ -21,6 +23,7 @@ exports[`renders correctly 1`] = `
         Refine your results
         <button
           className="ml-1 btn btn-sm"
+          data-cy="clear-button"
           onClick={[Function]}
           type="button"
         >

@@ -12,6 +12,7 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand --watch",
+    "test:update": "jest --updateSnapshot",
     "e2e": "start-server-and-test start http://localhost:1234 cypress:run",
     "cypress:run": "cypress run",
     "cypress:open": "cypress open"
@@ -97,6 +98,10 @@
     "automock": false,
     "setupFiles": [
       "./setup.config.js"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/cypress/"
     ],
     "moduleNameMapper": {
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
