@@ -24,9 +24,7 @@ const DefaultState = {
 }
 
 class Filter extends React.Component {
-  state = {
-    ...DefaultState
-  }
+  state = Object.assign({}, DefaultState)
 
   handleChange = (prop, value) => {
     this.setState({
@@ -43,7 +41,9 @@ class Filter extends React.Component {
     return (
       <aside className="mt-2">
         <div className={containerClasses}>
-          <h2>{`${count} private ${getPropertiesDisplayText(count)} for sale`}</h2>
+          <h2 data-cy="property-count">
+            {`${count} private ${getPropertiesDisplayText(count)} for sale`}
+          </h2>
           <PropertyListingsConsumer>
             {({ updateFilter }) => (
               <form
@@ -54,10 +54,11 @@ class Filter extends React.Component {
                 <p className="mb-1">
                   Refine your results
                   <button
+                    data-cy="clear-button"
                     className="ml-1 btn btn-sm"
                     type="button"
                     onClick={() => {
-                      this.setState({ ...DefaultState })
+                      this.setState(Object.assign({}, DefaultState))
                       updateFilter({})
                     }}
                   >
