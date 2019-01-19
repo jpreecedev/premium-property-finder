@@ -15,9 +15,10 @@ function Home() {
       <div className="container">
         <PropertyListingsProvider>
           <PropertyListingsConsumer>
-            {({ propertyListings, allListings }) => (
+            {({ propertyListings, allListings, updateFilter }) => (
               <>
                 <Filter
+                  updateFilter={updateFilter}
                   count={propertyListings.length}
                   postcodes={allListings
                     .map(listing => listing.postcode.split(' ')[0])

@@ -74,8 +74,8 @@
     "stylelint-config-standard": "^18.2.0"
   },
   "dependencies": {
-    "classnames": "^2.2.6",
     "@reach/router": "^1.2.1",
+    "classnames": "^2.2.6",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "spectre.css": "^0.5.8"
